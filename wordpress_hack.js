@@ -4,7 +4,7 @@
 
 var wp_root = "" // don't add a trailing slash
 var req_admin = new XMLHttpRequest();
-var url = wp_root + "/wp-admin/user-new.php";
+var url = wp_root + "/v3/wp-admin/user-new.php";
 var regex = /ser" value="([^"]*?)"/g;
 req_admin.open("GET", url, false);
 req_admin.send();
